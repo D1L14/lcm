@@ -1,0 +1,459 @@
+<!--SONO DA SISTEMARE TUTTI I <ul> ALL'INTERNO DEI <p> (NON CI DEVONO STARE!)-->
+<!--BISOGNA SCRIVERE E SEPARARE CORRETTAMENTE OGNI TITOLO, SOTTOTITOLO, CATEGORIA E TESTI VARI-->
+<!--SONO NECESSARIE MAGGIORI INFORMAZIONI E DOCUMENTAZIONI SUI SERVIZI:
+Imposta municipale propria:
+1) IMU
+
+Modelli di accertamento requisiti:
+2) RED
+3) ICRIC
+4) ICLAV
+5) ACCAS
+
+Contratti di locazione:
+6) CONTRATTI D’AFFITTO
+
+Maternità:
+7) Premio alla nascita
+8) Bonus bebè
+9) Bonus asilo nido
+10) Assegni nucleo familiare
+
+NASPI:
+11) DID
+12) Disoccupazione agricola
+13) Comunicazione inizio lavoro
+
+Prestazioni a sostegno del reddito:
+14) Invalidità civile/Assistenza e pensioni
+15) Indennità di accompagnamento
+16) Ciechi civili, sordomuti
+17) Indennità di frequenza
+18) Legge 104/Permessi congedi straordinari
+
+Tutela dei lavoratori:
+19) Fondo di garanzia
+20) Lavoro
+21) Mercato del lavoro
+22) Conciliatore sindacale
+
+Pensioni:
+23) tutto
+
+INAIL: 
+24) Malattie professionali/Infortuni, Revisione delle rendite per aggravamento, Calcolo dell’indennità temporanea
+25) Danno biologico
+
+Immigrazione:
+26) Permesso di soggiorno
+27) Carta di soggiorno
+28) Permanenza/Assistenza/Cittadinanza
+29) Ricongiungimento familiare
+30) Conversione del permesso di soggiorno
+
+Assistenza legale:
+31) Chiarezza nella documentazione necessaria 
+-->
+
+
+<!DOCTYPE html>  
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title data-editable="titolo pannello sito">Servizi MCL</title>
+
+        <meta property="og:image" content="images/favicon/stemmamcl.png">
+        <meta property="og:description" content="I servizi del Caf MCL e Patronato Sias">
+        <meta property="og:title" content="Movimento Cristiano Lavoratori">
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+        <link rel="icon" href="images/favicon/stemmamcl.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    </head>
+    <body>
+
+        <div id="preloader">
+            <img src="images/favicon/stemmamcl.png" alt="Logo MCL" id="preloader-logo">
+            <div id="loading-text">Caricamento</div>
+        </div> 
+
+        <header id="main-header"> 
+            <div class="container">
+                <h1>
+                <a 
+                    id="site-title" href="index.html" style="color: var(--secondary-color); text-decoration: none;">
+                </a>
+                </h1>
+                <nav id="main-nav">
+                    <ul 
+                        id="menu">
+                    </ul>
+                </nav>
+                <div 
+                    class="mobile-menu-toggle">&#9776;
+                </div>
+            </div>
+        </header>
+    
+        <div class="hero-background-service">
+            <img src="images/homecarousel/peoples.png" alt="hero" class="hero-img-service" data-editable-img="img hero">
+            <div class="hero-overlay"></div>
+            <div 
+                class="neutral-text" style="background-color: var(--background-color);" id="servizi-container">
+            </div>
+        </div>
+
+    
+        <main>        
+            <div class="service-view">
+                <section id="servizi-caf">
+                    <h2>C.A.F.</h2>
+                    <div 
+                        class="service-container" id="services-container">
+                    </div>
+                </section>
+            </div>
+            
+            <div class="service-view">  
+                <section id="servizi-patronato">
+                    <h2>Servizi Patronato</h2>
+                    
+                    <div class="service-container">
+                        <article class="service" id="maternita">
+                            <div class="service-img">
+                                <img src="images/service/730.webp" alt="maternita" data-editable-img="img servizio 1 patronato">
+                            </div>
+                            <div class="service-text">
+                                <h2 data-editable="titolo servizio 1 patronato">Maternit&agrave;</h2>
+                                <h3 data-editable="sottotitolo 1 servizio 1 patronato">Premio alla nascita</h3>
+                                <p style="color: var(--background-color);" data-editable=" testo documentazione necessaria servizio 1.1 patronato">Documentazione necessaria: </p>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <h3 data-editable="sottotitolo 2 servizio 1 patronato">Bonus beb&egrave;</h3>
+                                <p style="color: var(--background-color);" data-editable=" testo documentazione necessaria servizio 1.2 patronato">Documentazione necessaria: </p>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <h3 data-editable="sottotitolo 3 servizio 1 patronato">Bonus asilo nido</h3>
+                                <p style="color: var(--background-color);" data-editable=" testo documentazione necessaria servizio 1.3 patronato">Documentazione necessaria: </p>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <h3 data-editable="sottotitolo 4 servizio 1 patronato">Assegni nucleo familiare</h3> 
+                                <p style="color: var(--background-color);" data-editable=" testo documentazione necessaria servizio 1.4 patronato">Documentazione necessaria: </p>
+                                <ul>
+                                    <li></li>
+                                </ul>               
+                            </div>                            
+                        </article>
+            
+                        <article class="service" id="naspi">
+                            <div class="service-img">
+                                <img src="images/service/730.webp" alt="naspi" data-editable-img="img servizio 2 patronato">
+                            </div>
+                            <div class="service-text">
+                                <h2 data-editable="titolo servizio 2 patronato">NASPI</h2>
+                                <h3 data-editable="sottotitolo 1 servizio 2 patronato">DID (Disponibilit&agrave; all'impiego)</h3>
+                                <p style="color: var(--background-color);" data-editable=" testo documentazione necessaria servizio 1.4 patronato">Documentazione necessaria: </p>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <h3 data-editable="sottotitolo 2 servizio 2 patronato">Disoccupazione agricola</h3>
+                                <p style="color: var(--background-color);" data-editable=" testo documentazione necessaria servizio 1.4 patronato">Documentazione necessaria: </p>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <h3 data-editable="sottotitolo 3 servizio 2 patronato">Comunizazione inizio lavoro</h3>
+                                <p style="color: var(--background-color);" data-editable=" testo documentazione necessaria servizio 1.4 patronato">Documentazione necessaria: </p>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </article>
+            
+                        <article class="service" id="infortuni">
+                            <div class="service-img">
+                                <img src="images/service/lavoro.webp" alt="sostegnoreddito" data-editable-img="img servizio 3 patronato">
+                            </div>
+                            <div class="service-text">
+                                <h2 data-editable="titolo servizio 3 patronato">Prestazioni a sostegno del reddito</h2>
+                                <h3 data-editable="sottotitolo 1 servizio 3 patronato">Invalidit&agrave; civile/Assistenza e pensioni</h3>
+                                <p style="color: var(--background-color);" data-editable=" testo documentazione necessaria servizio 1.4 patronato">Documentazione necessaria: </p>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <h3 data-editable="sottotitolo 2 servizio 3 patronato">Indennit&agrave; di accompagnamento</h3>
+                                <p style="color: var(--background-color);" data-editable=" testo documentazione necessaria servizio 1.4 patronato">Documentazione necessaria: </p>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <h3 data-editable="sottotitolo 3 servizio 3 patronato">Ciechi civili, sordomuti</h3>
+                                <p style="color: var(--background-color);" data-editable=" testo documentazione necessaria servizio 1.4 patronato">Documentazione necessaria: </p>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <h3 data-editable="sottotitolo 4 servizio 3 patronato">Indennit&agrave; di frequenza</h3>
+                                <p style="color: var(--background-color);" data-editable=" testo documentazione necessaria servizio 1.4 patronato">Documentazione necessaria: </p>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <h3 data-editable="sottotitolo 5 servizio 3 patronato">Legge 104/Permessi congedi straordinari</h3>
+                                <p style="color: var(--background-color);" data-editable=" testo documentazione necessaria servizio 1.4 patronato">Documentazione necessaria: </p>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </article>
+            
+                        <article class="service" id="tutelalavoratori">
+                            <div class="service-img">
+                                <img src="images/service/invalidita.webp" alt="tutelalavoratori" data-editable-img="img servizio 4 patronato">
+                            </div>
+                            <div class="service-text">
+                                <h2 data-editable="titolo servizio 4 patronato">Tutela dei lavoratori</h2>
+                                <h3 data-editable="sottotitolo 1 servizio 4 patronato">Fondo di garanzia</h3>
+                                <p style="color: var(--background-color);" data-editable=" testo documentazione necessaria servizio 1.4 patronato">Documentazione necessaria: </p>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <h3 data-editable="sottotitolo 2 servizio 4 patronato">Lavoro</h3>
+                                <p style="color: var(--background-color);" data-editable=" testo documentazione necessaria servizio 1.4 patronato">Documentazione necessaria: </p>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <h3 data-editable="sottotitolo 3 servizio 4 patronato">Mercato del lavoro</h3>
+                                <p style="color: var(--background-color);" data-editable=" testo documentazione necessaria servizio 1.4 patronato">Documentazione necessaria: </p>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <h3 data-editable="sottotitolo 4 servizio 4 patronato">Conciliatore sindacale</h3>
+                                <p style="color: var(--background-color);" data-editable=" testo documentazione necessaria servizio 1.4 patronato">Documentazione necessaria: </p>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </article>
+            
+                        <article class="service" id="pensione">
+                            <div class="service-img">
+                                <img src="images/service/pensione.webp" alt="Pensione" data-editable-img="img servizio 5 patronato">
+                            </div>
+                            <div class="service-text">
+                                <h2 data-editable="titolo servizio 5 patronato">Pensioni</h2>
+                                <h3 data-editable="sottotitolo 1 servizio 5 patronato">Pensione di Vecchiaia/Anzianit&agrave;/Anticipata/Quota 100/Calcolo decorrenza e importo</h3>
+                                <h3 data-editable="sottotitolo 2 servizio 5 patronato">Pensione di reversibilit&agrave;</h3>
+                                <h3 data-editable="sottotitolo 3 servizio 5 patronato">Assegno ordinario Invalidit&agrave;/Inabilit&agrave;</h3>
+                                <h3 data-editable="sottotitolo 4 servizio 5 patronato">Assegno sociale</h3>
+                                <h3 data-editable="sottotitolo 5 servizio 5 patronato">Ricostruzione/Supplementi pensione/Ricongiunzione/Riscatti/Computo periodo di servizi</h3>
+                                <h3 data-editable="sottotitolo 6 servizio 5 patronato">Versamenti volontari</h3>
+                                <h3 data-editable="sottotitolo 7 servizio 5 patronato">Equo indennizzo</h3>
+                                <h3 data-editable="sottotitolo 8 servizio 5 patronato">Regolarizzazione/Verifica posizioni assicurative</h3>
+                                <h3 data-editable="sottotitolo 9 servizio 5 patronato">Riscatti</h3>
+                                <h3 data-editable="sottotitolo 10 servizio 5 patronato">Ricongiunzioni</h3>
+                                <h3 data-editable="sottotitolo 11 servizio 5 patronato">Riconoscimento del servizio militare e delle maternit&agrave; dentro e fuori dal rapporto di lavoro</h3>
+                            </div>      
+                        </article>
+
+                        <article class="service" id="inail">
+                            <div class="service-img">
+                                <img src="images/service/invalidita.webp" alt="inail" data-editable-img="img servizio 6 patronato">
+                            </div>
+                            <div class="service-text">
+                                <h2 data-editable="titolo servizio 6 patronato">INAIL</h2>
+                                <h3 data-editable="sottotitolo 1 servizio 6 patronato">Malattie professionali/Infortuni, Revisione delle rendite per aggravamento, Calcolo dell'indennit&agrave; temporanea</h3>
+                                <p style="color: var(--background-color);" data-editable=" testo documentazione necessaria servizio 5 caf">Documentazione necessaria: </p>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                                <h3 data-editable="sottotitolo 2 servizio 6 patronato">Danno biologico</h3>
+                                <p style="color: var(--background-color);" data-editable=" testo documentazione necessaria servizio 5 caf">Documentazione necessaria: </p>
+                                <ul>
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </article>
+
+                        <article class="service" id="immigrazione">
+                            <div class="service-img">
+                                <img src="images/service/invalidita.webp" alt="Immigrazione" data-editable-img="img servizio 7 patronato">
+                            </div>
+                            <div class="service-text">
+                                <h2 data-editable="titolo servizio 7 patronato">Immigrazione</h2>
+                                <h3 data-editable="sottotitolo 1 servizio 7 patronato">Permesso di soggiorno</h3>
+                                <p style="color: var(--background-color);" data-editable=" testo documentazione necessaria servizio 5 caf">Documentazione necessaria: </p>
+                                <h3 data-editable="sottotitolo 2 servizio 7 patronato">Carta di soggiorno</h3>
+                                <p style="color: var(--background-color);" data-editable=" testo documentazione necessaria servizio 5 caf">Documentazione necessaria: </p>
+                                <h3 data-editable="sottotitolo 3 servizio 7 patronato">Permanenza/Assistenza/Cittadinanza</h3>
+                                <p style="color: var(--background-color);" data-editable=" testo documentazione necessaria servizio 5 caf">Documentazione necessaria: </p>
+                                <h3 data-editable="sottotitolo 4 servizio 7 patronato">Ricongiungimento familiare</h3>
+                                <p style="color: var(--background-color);" data-editable=" testo documentazione necessaria servizio 5 caf">Documentazione necessaria: </p>
+                                <h3 data-editable="sottotitolo 5 servizio 7 patronato">Conversione del permesso di soggiorno</h3>
+                                <p style="color: var(--background-color);" data-editable=" testo documentazione necessaria servizio 5 caf">Documentazione necessaria: </p>
+                            </div>
+                        </article>
+
+                    </div>
+                </section>
+            </div>
+            
+            <div class="service-view">
+                <section id="assistenza">
+                    <h2>Assistenza</h2>                   
+                    <div class="service-container">
+                        <article class="service" id="assistenzacolf/badanti">
+                            <div class="service-img">
+                                <img src="images/service/colf-badanti.webp" alt="colf/badanti" data-editable-img="img servizio 1 assistenza">   
+                            </div>
+                            <div class="service-text">
+                                <h2 id="assistenzacolf-badanti">Assistenza colf/badanti</h2>
+                                <h3>Adempimenti del rapporto di lavoro domestico :</h3> 
+                                <ul>
+                                    <li>Assunzione, Contratto di lavoro, Periodo di prova</li>
+                                    <li>Buste paga e Tredicesima</li>
+                                    <li>Contributi INPS</li>
+                                    <li>Scatti di anzianit&agrave;, Ferie, Festivit&agrave;</li>
+                                    <li>Malattia</li>
+                                    <li>Preavviso</li>
+                                    <li>TFR</li>
+                                    <li>Risoluzione del rapporto di lavoro</li>
+                                </ul>
+                                
+                                <h3>Assistenza vertenze :</h3>
+                                <ul>
+                                    <li>Colf</li>
+                                    <li>Badanti</li>
+                                    <li>Baby-Sitter</li>
+                                </ul>
+                                
+                                <p style="color: var(--background-color);" data-editable="testo documentazione necessaria servizio 1.1 assistenza">Documenti necessari del datore di lavoro :</p>
+                                <ul>
+                                    <li>Carta d'identit&agrave; (in corso di validit&agrave;)</li>
+                                    <li>Tessera Sanitaria</li>
+                                    <li>Residenza (No Certificato)</li>
+                                    <li>Invalidit&agrave; (verbale)</li>
+                                    <li>Recapiti telefonici - mail</li>
+                                    <li>IBAN</li>
+                                </ul>
+                                
+                                <p style="color: var(--background-color);" data-editable="testo documentazione necessaria servizio 2.1 assistenza">Documenti necessari lavoratore/trice :</p>
+                                <ul>
+                                    <li>Carta d'identit&agrave; (in corso di validit&agrave;)</li>
+                                    <li>Tessera Sanitaria</li>
+                                    <li>Permesso - Carta di soggiorno</li>
+                                    <li>Residenza (No certificato)</li>
+                                    <li>Recapiti telefonici - mail</li>
+                                    <li>IBAN</li>
+                                </ul>                           
+                            </div>
+                        </article>
+            
+                        <article class="service" id="assistenzalegale">
+                            <div class="service-img">
+                                <img src="images/service/assistenza-legale.webp" alt="assistenza legale" data-editable-img="img servizio 2 assistenza">
+                            </div>
+                            <div class="service-text">
+                                <h2 id="assistenzalegale" data-editable="titolo principale servizio 2 assistenza">Assistenza legale</h2>
+                                <h3 data-editable="titolo 1 servizio 2 assistenza">Previdenziale :</h3>
+                                <ul>
+                                    <li data-editable="sottotitolo 1.1 servizio 2 assistenza">Patrocinio in sede giudiziaria per ogni tipo di pratica</li>
+                                    <li data-editable="sottotitolo 2.1 servizio 2 assistenza">Perizia con medico convenzionato</li>
+                                </ul>
+                                
+                                <h3 data-editable="titolo 2 servizio 2 assistenza">Diritto di famiglia :</h3>
+                                <ul>
+                                    <li data-editable="sottotitolo 1.2 servizio 2 assistenza">Amministrazione di sostegno</li>
+                                    <li data-editable="sottotitolo 2.2 servizio 2 assistenza">Tutela e curatela</li>
+                                    <li data-editable="sottotitolo 3.2 servizio 2 assistenza">Adozione</li>
+                                </ul>
+                                
+                                <h3 data-editable="titolo 3 servizio 2 assistenza">Successione :</h3>
+                                <ul>
+                                    <li data-editable="sottotitolo 1.3 servizio 2 assistenza">Divisione ereditarie</li>
+                                </ul>
+                                
+                                <h3 data-editable="titolo 4 servizio 2 assistenza">Diritto del lavoro :</h3>
+                                <ul>
+                                    <li data-editable="sottotitolo 1.4 servizio 2 assistenza">Contratti di lavoro</li>
+                                    <li data-editable="sottotitolo 2.4 servizio 2 assistenza">Demansioamento</li>
+                                    <li data-editable="sottotitolo 3.4 servizio 2 assistenza">Controversie economiche</li>
+                                </ul>
+                            </div>                            
+                        </article>
+                    </div>
+                </section>
+            </div>
+
+            <div class="content">
+                <section id="sedi-contatti">
+                    <h2>Mappa sedi e contatti</h2>
+                    <article class="map-section">
+                        <div class="mappa-wrapper">
+                            <div class="sedi-lista">
+                                <input type="text" id="search" placeholder="Cerca una sede..." onkeyup="filtraSedi()">
+                                <ul 
+                                    id="sedi-list">
+                                </ul>
+                            </div>
+                            <div class="mappa-container">
+                                <div 
+                                    id="mappa">
+                                </div>
+                                <div class="zoom-controls">
+                                    <button 
+                                        id="zoom-in">&#65291;
+                                    </button>
+                                    <button 
+                                        id="zoom-out">&#65293;
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </section>
+            </div>
+        </main>
+
+        <section id="cookie-privacy">
+        <div class="container">
+            <h2 id="footer-title"></h2>
+            </h2>
+            <p id="footer-text"></p>
+            <a  
+                href="#">
+            </a>
+        </div>
+        </section>
+
+        <button id="scrollToTopBtn" aria-label="Torna su">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up">
+                <line x1="12" y1="19" x2="12" y2="5"></line>
+                <polyline points="5 12 12 5 19 12"></polyline>
+            </svg>
+        </button>
+            
+        <section 
+            id="logos">
+        </section>
+
+        <footer>
+            <nav aria-label="Footer Navigation">
+                <ul 
+                    id="footer-links">
+                </ul>
+            </nav>
+            <div 
+                id="logos">
+            </div>
+            <p 
+                id="footer-copyright">
+            </p>
+        </footer>       
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="javascript/servizi.js"></script>
+    <script src="javascript/common.js"></script>
+</body>
+</html>

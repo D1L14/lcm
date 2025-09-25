@@ -1,0 +1,129 @@
+<!DOCTYPE html>  <!--COMPLETA--> <!--CONTROLLO IMMAGINI ()-->
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Chi siamo MCL</title>
+
+        <meta property="og:image" content="images/favicon/stemmamcl.png">
+        <meta property="og:description" content="La storia del Movimento Cristiano Lavoratori">
+        <meta property="og:title" content="Movimento Cristiano Lavoratori">
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+        <link rel="icon" href="images/favicon/stemmamcl.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    </head>
+    <body>
+
+        <div id="preloader">
+            <img src="images/favicon/stemmamcl.png" alt="Logo MCL" id="preloader-logo">
+            <div id="loading-text">Caricamento</div>
+        </div>
+
+        <header id="main-header"> 
+            <div class="container">
+                <h1>
+                <a 
+                    id="site-title" href="index.html" style="color: var(--secondary-color); text-decoration: none;">
+                </a>
+                </h1>
+                <nav id="main-nav">
+                    <ul 
+                        id="menu">
+                    </ul>
+                </nav>
+                <div 
+                    class="mobile-menu-toggle">&#9776;
+                </div>
+            </div>
+        </header>
+
+    
+        <section id="cookie-privacy">
+        <div class="container">
+            <h2 id="footer-title"></h2>
+            </h2>
+            <p id="footer-text-first"></p>
+        </div>
+        </section>
+
+        <main>
+
+            <div class="custom-carousel">
+                <div 
+                    class="carousel-track">
+                </div>
+                <button class="carousel-btn prev">&#10094;</button>
+                <button class="carousel-btn next">&#10095;</button>
+            </div>
+
+        </main>
+
+        <section id="cookie-privacy">
+            <div class="container">
+                <p id="footer-text-second"></p>
+            </div>
+        </section>
+    
+        <div class="content">
+            <section id="sedi-contatti">
+                <h2>Mappa sedi e contatti</h2>
+                <article class="map-section">
+                    <div class="mappa-wrapper">
+                        <div class="sedi-lista">
+                            <input type="text" id="search" placeholder="Cerca una sede..." onkeyup="filtraSedi()">
+                            <ul 
+                                id="sedi-list">
+                            </ul>
+                        </div>
+                        <div class="mappa-container">
+                            <div 
+                                id="mappa">
+                            </div>
+                            <div class="zoom-controls">
+                                <button 
+                                    id="zoom-in">&#65291;
+                                </button>
+                                <button 
+                                    id="zoom-out">&#65293;
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </div>
+
+        <button id="scrollToTopBtn" aria-label="Torna su">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up">
+                <line x1="12" y1="19" x2="12" y2="5"></line>
+                <polyline points="5 12 12 5 19 12"></polyline>
+            </svg>
+        </button>
+                
+        <section 
+            id="logos">
+        </section>
+
+        <footer>
+            <nav aria-label="Footer Navigation">
+                <ul 
+                    id="footer-links">
+                </ul>
+            </nav>
+            <div 
+                id="logos">
+            </div>
+            <p 
+                id="footer-copyright">
+            </p>
+        </footer>
+        
+        <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+        <script src="javascript/chisiamo.js" defer></script>
+        <script src="javascript/common.js" defer></script>
+
+    </body>
+</html>

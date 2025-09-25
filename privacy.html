@@ -1,0 +1,134 @@
+<!--COMPLETA-->
+<!--NECESSARIO CONTROLLO TESTO-->
+
+
+
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title data-editable="titolo pannello sito">Privacy MCL</title>
+
+        <meta property="og:image" content="images/favicon/stemmamcl.png">
+        <meta property="og:description" content="Privacy MCL Genova">
+        <meta property="og:title" content="Movimento Cristiano Lavoratori">
+
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+        <link rel="icon" href="images/favicon/stemmamcl.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    </head>
+    <body>
+
+    <div id="preloader">
+        <img src="images/favicon/stemmamcl.png" alt="Logo MCL" id="preloader-logo">
+        <div id="loading-text">Caricamento</div>
+    </div>   
+
+    <header id="main-header">
+        <div class="container">
+            <h1><a href="index.html" style="color: var(--secondary-color); text-decoration: none;" data-editable="titolo pagina">MCL GENOVA</a></h1>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html" data-editable="prima voce menu">Home</a></li>
+                    <li><a href="chisiamo.html" data-editable="seconda voce menu">Chi siamo</a></li>
+                    <li class="dropdown">
+                        <a href="servizi.html" data-editable="terza voce menu">Servizi</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="servizi.html#servizi-caf" data-editable="quarta voce menu">CAF</a></li>
+                            <li><a href="servizi.html#servizi-patronato" data-editable="quinta voce menu">Patronato</a></li>
+                            <li><a href="servizi.html#assistenzacolf-badanti" data-editable="sesta voce menu">Assistenza colf/badanti</a></li>
+                            <li><a href="servizi.html#assistenzalegale" data-editable="settima voce menu">Assistenza legale</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#sedi-contatti" data-editable="ottava voce menu">Sedi e Contatti</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">☰</div>
+        </div>
+    </header>
+    
+    <main>
+        
+        <section id="cookie-privacy">
+            <div class="container">
+                <h2 data-editable="titolo">Privacy Policy</h2>
+                <p data-editable="testo 1">La tua privacy è importante per noi. In questa sezione ti spieghiamo come raccogliamo, utilizziamo e proteggiamo i tuoi dati personali. L'accesso e la navigazione su questo sito implicano l'accettazione delle condizioni indicate in questa informativa.</p>
+                <p data-editable="testo 2">I dati forniti volontariamente tramite moduli, email o altri strumenti di contatto verranno trattati nel rispetto della normativa vigente (Regolamento UE 2016/679 - GDPR).</p>
+                <p data-editable="testo 3">Non condividiamo le tue informazioni con terze parti se non quando necessario per l'erogazione di un servizio da te richiesto, o per adempiere a obblighi legali.</p>
+                <p>
+                    <em data-editable="testo 4">Hai il diritto di accedere, modificare o cancellare i tuoi dati personali in qualsiasi momento. Per farlo, puoi contattarci direttamente tramite i recapiti forniti sul sito. Per maggiori dettagli su come utilizziamo i cookie, consulta la nostra</em>
+                    <a href="cookie.html" data-editable="link a cookie">Cookie Policy</a>.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <button id="scrollToTopBtn" aria-label="Torna su">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+        </svg>
+    </button>
+         
+    <section id="logos">
+            <img src="images/logos/mcl.jpg" alt="logo MCL" data-editable-img="logo fondo pagina 1">
+            <img src="images/logos/cafmcl.jpg" alt="logo MCL" data-editable-img="logo fondo pagina 2">
+            <img src="images/logos/sias.png" alt="logo MCL" data-editable-img="logo fondo pagina 3">
+    </section>
+
+    <footer>
+        <p data-editable="testo fondo pagina">© 2025 Movimento Cristiano Lavoratori Genova</p>
+        <nav aria-label="Footer Navigation">
+            <ul>
+                <li><a href="privacy.html" data-editable="titolo privacy">Privacy</a></li>
+                <li><a href="cookie.html" data-editable="titolo cookie">Cookie</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            setTimeout(() => {
+                const preloader = document.getElementById('preloader');
+                    preloader.style.opacity = '0';
+                setTimeout(() => {
+                    preloader.style.display = 'none';
+                }, 500);
+            }, 2000);   
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.mobile-menu-toggle');
+            const nav = document.querySelector('#main-nav');
+            
+            menuToggle.addEventListener('click', function() {
+                nav.classList.toggle('active');
+            });
+        });
+    </script>
+    <script>
+        const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+        const secondSection = document.querySelectorAll('section')[0];
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > secondSection.offsetTop) {
+            scrollToTopBtn.classList.add('show');
+            } else {
+            scrollToTopBtn.classList.remove('show');
+            }
+        });
+        
+        scrollToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+            });
+        });
+    </script> 
+</body>
+</html>
