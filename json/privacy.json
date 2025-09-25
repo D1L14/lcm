@@ -1,0 +1,10 @@
+{
+    "cookie_privacy": {
+            "titolo": "Privacy Policy",
+            "testo": "La tua privacy è importante per noi. In questa sezione ti spieghiamo come raccogliamo, utilizziamo e proteggiamo i tuoi dati personali. L'accesso e la navigazione su questo sito implicano l'accettazione delle condizioni indicate in questa informativa. I dati forniti volontariamente tramite moduli, email o altri strumenti di contatto verranno trattati nel rispetto della normativa vigente (Regolamento UE 2016/679 - GDPR). Non condividiamo le tue informazioni con terze parti se non quando necessario per l'erogazione di un servizio da te richiesto, o per adempiere a obblighi legali. Hai il diritto di accedere, modificare o cancellare i tuoi dati personali in qualsiasi momento.",
+            "link_storia": {
+                "text": "Per farlo , puoi contattarci direttamente tramite i recapiti forniti sul sito. Per maggiori dettagli su come utilizziamo i cookie, consulta la nostra Cookie Policy",
+                "href": "cookie.html"
+            }
+        }
+}

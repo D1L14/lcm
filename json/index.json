@@ -1,0 +1,315 @@
+{
+    "carousel": [
+        {
+            "img": "images\/homecarousel\/mclwallpaper.jpg"
+        },
+        {
+            "img": "images\/homecarousel\/peoples.png",
+            "titolo": "Benvenuto nella homepage MCL Genova",
+            "testo": "Scopri la realtà del Movimento Cristiano Lavoratori: i nostri circoli per attività ricreative e la sede operativa di Corso Torino per tutte le pratiche CAF e Patronato:",
+            "link_testo": "Mappa sedi MCL Genova",
+            "link": "#sedi-contatti"
+        },
+        {
+            "img": "images\/homecarousel\/cafwallpaper.jpg"
+        },
+        {
+            "img": "images\/homecarousel\/couple.png",
+            "titolo": "Scopri i nostri servizi",
+            "testo": "Dal Caf SIAS al Patronato MCL. Per maggiori dettagli:",
+            "link1_text": "Caf",
+            "link1": "servizi.html#servizi_caf",
+            "link2_text": "Patronato",
+            "link2": "servizi.html#servizi_patronato"
+        },
+        {
+            "img": "images\/homecarousel\/siaswallpaper.png"
+        },
+        {
+            "img": "images\/homecarousel\/scu.png"
+        }
+    ],
+    "newsCarousel-caf": {
+        "titolo": "Scadenze e Novità",
+        "articoli": [
+            {
+                "img": "images\/novita\/novita.webp",
+                "titolo": "Scadenza 730",
+                "testo": "Il 730 deve essere presentato entro e non oltre il 30 settembre 2025."
+            },
+            {
+                "img": "images\/novita\/novita.webp",
+                "titolo": "Scadenze ISEE",
+                "testo": "Presenta l'ISEE entro i termini previsti per accedere alle agevolazioni fiscali."
+            },
+            {
+                "img": "images\/novita\/novita.webp",
+                "titolo": "Nuove agevolazioni fiscali",
+                "testo": "Scopri tutte le novità introdotte per il 2025 in materia di agevolazioni."
+            },
+            {
+                "img": "images\/novita\/novita.webp",
+                "titolo": "Aggiornamenti INPS",
+                "testo": "Ultime comunicazioni ufficiali da parte dell’INPS sui servizi Caf e Patronato."
+            }
+        ]
+    },
+    "servizi_caf": {
+        "titolo": "C.A.F.",
+        "servizi": [
+            {
+                "img": "images\/service\/imu.webp",
+                "titolo": "IMU",
+                "sottotitoli": [
+                    "Modello Unico"
+                ],
+                "testo": "Per scoprire quali documenti ti saranno utili per questa pratica clicca:",
+                "link_text": "Documentazione completa",
+                "link": "servizi.html#imu"
+            },
+            {
+                "img": "images\/service\/isee.webp",
+                "titolo": "Indicatori situazione economica",
+                "sottotitoli": [
+                    "DSU",
+                    "ISEE",
+                    "ISEE Parificato"
+                ],
+                "testo": "Consulta la documentazione richiesta per la tua pratica ISEE:",
+                "link_text": "Documentazione completa",
+                "link": "servizi.html#isee"
+            },
+            {
+                "img": "images\/service\/730.webp",
+                "titolo": "Dichiarazione dei redditi",
+                "sottotitoli": [
+                    "Modello 730"
+                ],
+                "testo": "Verifica i documenti richiesti per la tua dichiarazione dei redditi:",
+                "link_text": "Documentazione completa",
+                "link": "servizi.html#modello730"
+            },
+            {
+                "img": "images\/service\/red.webp",
+                "titolo": "Modelli di accertamento",
+                "sottotitoli": [
+                    "RED",
+                    "ICRIC",
+                    "ICLAV",
+                    "ACCAS"
+                ],
+                "testo": "Scopri la documentazione richiesta per i modelli di accertamento:",
+                "link_text": "Documentazione completa",
+                "link": "servizi.html#red"
+            },
+            {
+                "img": "images\/service\/730.webp",
+                "titolo": "Contratti di locazione",
+                "sottotitoli": [
+                    "Contratti d'affitto"
+                ],
+                "testo": "Per contratti di locazione consulta i documenti necessari:",
+                "link_text": "Documentazione completa",
+                "link": "servizi.html#locazioni"
+            }
+        ]
+    },
+    "newsCarousel-caf-extra": {
+        "titolo": "Novità pratiche C.A.F.",
+        "articoli": [
+            {
+                "img": "images\/novita\/novita.webp",
+                "titolo": "ISEE Universitario",
+                "testo": "Nuove regole per la presentazione dell’ISEEU."
+            },
+            {
+                "img": "images\/novita\/novita.webp",
+                "titolo": "Bonus fiscali",
+                "testo": "Scopri gli ultimi bonus per famiglie e lavoratori."
+            },
+            {
+                "img": "images\/novita\/novita.webp",
+                "titolo": "ISEE Universitario",
+                "testo": "Nuove regole per la presentazione dell’ISEEU."
+            },
+            {
+                "img": "images\/novita\/novita.webp",
+                "titolo": "Bonus fiscali",
+                "testo": "Scopri gli ultimi bonus per famiglie e lavoratori."
+            }
+        ]
+    },
+    "servizi_patronato": {
+        "titolo": "Patronato",
+        "servizi": [
+            {
+                "img": "images\/service\/730.webp",
+                "titolo": "Maternità",
+                "sottotitoli": [
+                    "Premio alla nascita",
+                    "Bonus bebè",
+                    "Bonus asilo nido",
+                    "Assegni nucleo familiare"
+                ],
+                "testo": "Consulta i documenti richiesti per le pratiche di maternità:",
+                "link_text": "Documentazione completa",
+                "link": "servizi.html#maternita"
+            },
+            {
+                "img": "images\/service\/730.webp",
+                "titolo": "NASPI",
+                "sottotitoli": [
+                    "DID (Disponibilità all'impiego)",
+                    "Disoccupazione agricola",
+                    "Comunicazione inizio lavoro"
+                ],
+                "testo": "Scopri la documentazione richiesta per la domanda NASPI:",
+                "link_text": "Documentazione completa",
+                "link": "servizi.html#naspi"
+            },
+            {
+                "img": "images\/service\/lavoro.webp",
+                "titolo": "Prestazioni a sostegno del reddito",
+                "sottotitoli": [
+                    "Invalidità civile",
+                    "Indennità di accompagnamento",
+                    "Legge 104\/Permessi",
+                    "Ciechi civili, sordomuti",
+                    "Indennità di frequenza"
+                ],
+                "testo": "Consulta i documenti per le pratiche di sostegno al reddito:",
+                "link_text": "Documentazione completa",
+                "link": "servizi.html#sostegnoreddito"
+            },
+            {
+                "img": "images\/service\/invalidita.webp",
+                "titolo": "Tutela dei lavoratori",
+                "sottotitoli": [
+                    "Fondo di garanzia",
+                    "Conciliatore sindacale",
+                    "Servizi per il lavoro"
+                ],
+                "testo": "Consulta i documenti richiesti per la tutela dei lavoratori:",
+                "link_text": "Documentazione completa",
+                "link": "servizi.html#tutelalavoratori"
+            },
+            {
+                "img": "images\/service\/pensione.webp",
+                "titolo": "Pensioni",
+                "sottotitoli": [
+                    "Vecchiaia \/ Anzianità \/ Anticipata",
+                    "Reversibilità",
+                    "Assegno ordinario Invalidità \/ Inabilità",
+                    "Assegno sociale",
+                    "Riscatti e ricongiunzioni",
+                    "Versamenti volontari"
+                ],
+                "testo": "Consulta la documentazione richiesta per le pratiche pensionistiche:",
+                "link_text": "Documentazione completa",
+                "link": "servizi.html#pensioni"
+            },
+            {
+                "img": "images\/service\/730.webp",
+                "titolo": "INAIL",
+                "sottotitoli": [
+                    "Malattie professionali",
+                    "Infortuni",
+                    "Rendite e indennità temporanee"
+                ],
+                "testo": "Documentazione richiesta per pratiche INAIL:",
+                "link_text": "Documentazione completa",
+                "link": "servizi.html#inail"
+            },
+            {
+                "img": "images\/service\/730.webp",
+                "titolo": "Immigrazione",
+                "sottotitoli": [
+                    "Permesso di soggiorno",
+                    "Carta di soggiorno",
+                    "Cittadinanza",
+                    "Ricongiungimento familiare"
+                ],
+                "testo": "Scopri la documentazione richiesta per le pratiche di immigrazione:",
+                "link_text": "Documentazione completa",
+                "link": "servizi.html#immigrazione"
+            }
+        ]
+    },
+    "newsCarousel-patronato": {
+        "titolo": "Novità pratiche Patronato",
+        "articoli": [
+            {
+                "img": "images\/novita\/novita.webp",
+                "titolo": "Assegno unico",
+                "testo": "Aggiornamenti sulle scadenze per l’Assegno Unico."
+            },
+            {
+                "img": "images\/novita\/novita.webp",
+                "titolo": "NASPI 2025",
+                "testo": "Modifiche sui requisiti per la NASPI."
+            },
+            {
+                "img": "images\/novita\/novita.webp",
+                "titolo": "Assegno unico",
+                "testo": "Aggiornamenti sulle scadenze per l’Assegno Unico."
+            },
+            {
+                "img": "images\/novita\/novita.webp",
+                "titolo": "NASPI 2025",
+                "testo": "Modifiche sui requisiti per la NASPI."
+            }
+        ]
+    },
+    "assistenza": {
+        "titolo": "Assistenza",
+        "servizi": [
+            {
+                "img": "images\/service\/colf-badanti.webp",
+                "titolo": "Assistenza colf\/badanti",
+                "sottotitoli": [
+                    "Assunzione",
+                    "Contratto di lavoro",
+                    "Periodo di prova",
+                    "Buste paga e Tredicesima",
+                    "Contributi INPS",
+                    "Scatti di anzianità",
+                    "Malattia",
+                    "Preavviso",
+                    "TFR",
+                    "Risoluzione del rapporto di lavoro",
+                    "Colf",
+                    "Badanti",
+                    "Baby-sitter"
+                ],
+                "testo": "Consulta i documenti richiesti per la gestione del rapporto di lavoro:",
+                "link_text": "Documentazione completa",
+                "link": "servizi.html#assistenzacolf-badanti"
+            },
+            {
+                "img": "images\/service\/assistenza-legale.webp",
+                "titolo": "Assistenza legale",
+                "sottotitoli": [
+                    "Patrocinio in sede giudiziaria per ogni tipo di pratica",
+                    "Perizia con medico convenzionato",
+                    "Amministrazione di sostegno",
+                    "Tutela e cura",
+                    "Adozione",
+                    "Divisione ereditarie",
+                    "Demansionamento",
+                    "Controversie economiche"
+                ],
+                "testo": "Consulta i documenti richiesti per le diverse pratiche legali:",
+                "link_text": "Documentazione completa",
+                "link": "servizi.html#assistenzacolf-badanti"
+            }
+        ]
+    },
+    "cookie_privacy": {
+        "titolo": "IL MOVIMENTO CRISTIANO LAVORATORI",
+        "testo": "MCL è un Movimento di lavoratori cristiani a carattere sociale, di solidarietà e volontariato senza alcuna finalità di lucro. Il M.C.L., intende promuovere l'affermazione dei principi cristiani nella vita, nella cultura, negli ordinamenti, nella legislazione. Per questo intende operare come Movimento ecclesiale di testimonianza evangelica organizzata...",
+        "link_storia": {
+            "text": "Clicca qui per approfondire.",
+            "href": "chisiamo.html"
+        }
+    }
+}

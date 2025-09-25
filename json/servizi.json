@@ -1,0 +1,872 @@
+{
+    "servizi": [
+        {
+            "titolo": "C.A.F.",
+            "voci": [
+                {
+                    "id": "imu",
+                    "testo": "Modello Unico"
+                },
+                {
+                    "id": "ise",
+                    "testo": "Indicatori situazione economica"
+                },
+                {
+                    "id": "dichiarazioneredditi",
+                    "testo": "Dichiarazione dei redditi"
+                },
+                {
+                    "id": "modelliaccertamento",
+                    "testo": "Modelli di accertamento"
+                },
+                {
+                    "id": "contrattilocazione",
+                    "testo": "Contratti locazione"
+                }
+            ]
+        },
+        {
+            "titolo": "Patronato",
+            "voci": [
+                {
+                    "id": "maternita",
+                    "testo": "Maternità"
+                },
+                {
+                    "id": "naspi",
+                    "testo": "NASPI"
+                },
+                {
+                    "id": "prestazioneasostegnodelreddito",
+                    "testo": "Prestazione a sostegno del reddito"
+                },
+                {
+                    "id": "tuteladeilavoratori",
+                    "testo": "Tutela dei lavoratori"
+                },
+                {
+                    "id": "pensioni",
+                    "testo": "Pensione"
+                },
+                {
+                    "id": "inail",
+                    "testo": "INAIL"
+                },
+                {
+                    "id": "immigrazione",
+                    "testo": "Immigrazione"
+                }
+            ]
+        },
+        {
+            "titolo": "Assistenza",
+            "voci": [
+                {
+                    "id": "assistenzacolf-badanti",
+                    "testo": "Assistenza colf\/badanti"
+                },
+                {
+                    "id": "assistenzalegale",
+                    "testo": "Assistenza legale"
+                }
+            ]
+        }
+    ],
+    "servizi CAF": {
+        "id": "servizi-caf",
+        "titolo": "C.A.F.",
+        "servizi": [
+            {
+                "id": "imu",
+                "img": "images\/service\/imu.webp",
+                "alt": "IMU",
+                "titolo": "Modello Unico",
+                "sottotitolo": "IMU",
+                "paragrafi": [
+                    "Documentazione necessaria:"
+                ],
+                "elenchi": [
+                    [
+                        "Tessera sanitaria dei titolari"
+                    ],
+                    [
+                        "Documento di identità"
+                    ],
+                    [
+                        "Visure catastali e\/o atti pubblici"
+                    ],
+                    [
+                        "Valore dell'area per terreni edificabili"
+                    ],
+                    [
+                        "Data di variazione nel caso di cambio di utilizzo dell'immobile"
+                    ]
+                ]
+            },
+            {
+                "id": "ise",
+                "img": "images\/service\/isee.webp",
+                "alt": "ise",
+                "titolo": "Indicatori situazione economica",
+                "sottotitoli": [
+                    {
+                        "tipo": "h3",
+                        "testo": "ISEE - Indicatore situazione economica equivalente"
+                    }
+                ],
+                "paragrafi": [
+                    "Documentazione necessaria:",
+                    "(Necessari per ogni componente del nucleo familiare)"
+                ],
+                "elenchi": [
+                    [
+                        "Carta d'identità (in corso di validità)"
+                    ],
+                    [
+                        "Tessera Sanitaria"
+                    ],
+                    [
+                        "Permesso\/Carta di soggiorno"
+                    ],
+                    [
+                        "Copia contratto di locazione registrato AG. Entrate (Numero-Serie-Data)"
+                    ],
+                    [
+                        "Ricevuta dell'Agenzia dell'Entrate del rinnovo del contratto di affitto (Se scaduto)"
+                    ],
+                    [
+                        "Visura Catastale"
+                    ],
+                    [
+                        "Certificazione debito residuo mutuo al 31\/12\/2023"
+                    ],
+                    [
+                        "Modello CU-730-UNICO 2025 per redditi 2023"
+                    ],
+                    [
+                        "Voucher (Ricevuta INPS\/Tabacchino)"
+                    ],
+                    [
+                        "Assegni nucleo familiare annuali (Solo dipendenti pubblici)"
+                    ],
+                    [
+                        "Invalidità civile - Accompagnamento (verbale Invalidità - OBISM INPS)"
+                    ],
+                    [
+                        "Assegno sociale - Pensione sociale (OBISM INPS)"
+                    ],
+                    [
+                        "Tirocini - stage - Borsa di studio (Certificazione\/Lettera Ente)"
+                    ],
+                    [
+                        "Rendite INAIL"
+                    ],
+                    [
+                        "Rendite pensioni di guerra"
+                    ],
+                    [
+                        "Pensioni estere (Certificazione - estratto bancario)"
+                    ],
+                    [
+                        "Immobili esteri"
+                    ],
+                    [
+                        "Sentenza tribunale per assegni di mantenimento coniuge/figli"
+                    ],
+                    [
+                        "Certificazione bancaria e\/o postale"
+                    ],
+                    [
+                        "Targa Autoveicoli/Motoveicoli/Camper/Barche/Navi"
+                    ],
+                    [
+                        "Libretto circolazione"
+                    ],
+                    [
+                        "Libretto motore"
+                    ],
+                    [
+                        "Saldo al 31\/12\/2023"
+                    ],
+                    [
+                        "Giacenza media anno 2023"
+                    ],
+                    [
+                        "Data eventuale apertura\/chiusura in corso di anno 2023"
+                    ],
+                    [
+                        "Capitale totale versato al 31\/12\/2023"
+                    ],
+                    [
+                        "Documento d'identità"
+                    ],
+                    [
+                        "Tessera sanitaria"
+                    ],
+                    [
+                        "Nomina tribunale"
+                    ],
+                    [
+                        "Timbro ente comunale in caso di impossibilitati a firmare/Illeterati"
+                    ]
+                ]
+            },
+            {
+                "id": "iseeup",
+                "img": "images\/service\/isee.webp",
+                "alt": "iseeup",
+                "titolo": "Indicatori situazione economica",
+                "sottotitoli": [
+                    {
+                        "tipo": "h3",
+                        "testo": "ISEEUP - ISEE Parificato"
+                    }
+                ],
+                "paragrafi": [
+                    "List of necessary documents:"
+                ],
+                "elenchi": [
+                    [
+                        "Household composition"
+                    ],
+                    [
+                        "Residency"
+                    ],
+                    [
+                        "Citizenship"
+                    ],
+                    [
+                        "Address of residence abroad"
+                    ],
+                    [
+                        "Rent building abroad (Euro)"
+                    ],
+                    [
+                        "Remaining principal home loan abroad (Euro)"
+                    ],
+                    [
+                        "2023 average balance and stock of current accounts abroad (Euro)"
+                    ],
+                    [
+                        "Identity card of the registrant"
+                    ],
+                    [
+                        "Residence permit"
+                    ],
+                    [
+                        "Address of the Italian domicile"
+                    ],
+                    [
+                        "Lease in Italy"
+                    ],
+                    [
+                        "Rent paid in Italy"
+                    ],
+                    [
+                        "University faculty attended"
+                    ]
+                ]
+            },
+            {
+                "id": "dichiarazioneredditi",
+                "img": "images/service/730.webp",
+                "alt": "Modello 730",
+                "titolo": "Dichiarazione dei redditi",
+                "sottotitolo": "Modello 730",
+                "paragrafo": [
+                  "Documentazione necessaria:"
+                ],
+              
+                "titolo elenco (1)": [
+                  "Per redditi di lavoro dipendente:"
+                ],
+                "elenco (1)": [
+                  "Fotocopia codice fiscale del contribuente, del coniuge e dei familiari a carico, anche per i familiari extracomunitari",
+                  "Dichiarazione dei Redditi dell'anno precedente (730 o redditi) compresa la Certificazione Unica, eventuali deleghe di versamento",
+                  "Modello F24",
+                  "Dati del datore di lavoro che effettuerà il conguaglio",
+                  "Fotocopia documento del dichiarante o richiedente"
+                ],
+              
+                "titolo elenco (2)": [
+                  "Altri redditi:"
+                ],
+                "elenco (2)": [
+                  "Certificazione Unica",
+                  "Certificato delle pensioni estere",
+                  "Assegni periodici percepiti dal coniuge in base a sentenza di separazione o divorzio",
+                  "Attestazione del datore di lavoro delle somme corrispondenti a colf e badanti"
+                ],
+              
+                "titolo elenco (3)": [
+                  "Terreni e fabbricati:"
+                ],
+                "elenco (3)": [
+                  "Esazione terreni o cessioni di mobili avvenuti negli ultimi 5 anni",
+                  "Redditi diversi eventualmente percepiti dagli eredi"
+                ],
+              
+                "titolo elenco (4)": [
+                  "Per chi ha cedolare secca:"
+                ],
+                "elenco (4)": [
+                  "Visura catastale",
+                  "Atti o contratti di compravendita, donazione, divisione successione",
+                  "Contratti di locazione, legge 431/98",
+                  "Canone dai mobili affittati",
+                  "Copia F24 di versamenti TARI pagati nel 2021 accompagnati dal calcolo",
+                  "Ricevuta della raccomandata inviata dall'inquilino, copia del contratto, eventuale F24, Modello Siria, Modello 69"
+                ],
+              
+                "titolo elenco (5)": [
+                  "Documenti per la casa:" 
+                ],
+                "elenco (5)": [
+                  "Contratto di locazione per le persone che vivono in affitto",
+                  "Quietanza di versamento degli interessi per mutui casa, atto d'acquisto, atto di mutuo",
+                  "Fatture pagate al notaio per l'atto di acquisto e la simulazione del mutuo stesso",
+                  "Fattura pagata ad agenzie immobiliari per l'acquisto della prima casa, tutta la documentazione per la detrazione Bonus facciate e le ristrutturazioni edilizie (fatture, bonifici, concessioni, autorizzazioni, comunicazioni di inizio lavori)",
+                  "Tutta la documentazione per le spese di risparmio energetico (fatture, bonifici e ricevuta dell'invio della comunicazione all'Enea)"
+                ],
+              
+                "titolo elenco (6)": [
+                  "Per i figli:"
+                ],
+                "elenco (6)": [
+                  "Ricevute e quietanze di versamento di contributi per iscrizioni ragazzi alle attività sportive dilettantistiche (palestre o piscine)",
+                  "Contratti di locazione pagati per studenti universitari fuorisede o convitti, attestato di frequenza al corso di laurea",
+                  "Rette pagate all'asilo nido",
+                  "Spese di istruzione per la frequenza di scuole materne, elementari, medie inferiori e superiori (ad esempio tasse, contributi, spese mensa)",
+                  "Corsi di istruzione universitaria presso università statali e non statali, tenuti presso università, istituti pubblici o privati, italiani o stranieri"
+                ],
+              
+                "titolo elenco (7)": [
+                  "Per l'ex coniuge:"
+                ],
+                "elenco (7)": [
+                  "Assegni periodici",
+                  "Sentenza di separazione",
+                  "Codice fiscale dell'ex coniuge"
+                ],
+              
+                "titolo elenco (8)": [
+                  "Spese mediche:"
+                ],
+                "elenco (8)": [
+                  "Parcelle per visite mediche generiche e specialistiche",
+                  "Scontrini della farmacia (ticket, farmaci da banco, medicinali, omeopatia)",
+                  "Spese odontoiatriche o oculistiche (ad esempio occhiali, lenti a contatto e liquidi)",
+                  "Documentazione attestante la marcatura CE per i dispositivi medici (inclusi gli occhiali da vista)",
+                  "Ticket ospedalieri/sanitari o per esami di laboratorio",
+                  "Ricevute per interventi chirurgici, degenza e ricoveri",
+                  "Ricevute per acquisto protesi dentali",
+                  "Ricevute per spese sanitarie sostenute all'estero",
+                  "Spese per soggetti con diagnosi di disturbo specifico di apprendimento (DSA)",
+                  "Spese sanitarie per portatori di handicap (mezzi necessari all'accompagnamento, deambulazione, sollevamento o sussidi informatici)",
+                  "Spese autoveicoli e motoveicoli per i portatori di handicap",
+                  "Documentazione comprovante il costo per la badante",
+                  "Spese veterinarie"
+                ],
+              
+                "titolo elenco (9)": [
+                  "Sulle spese detraibili o deducibili, in relazione alla tracciabilità, è necessario esibire prova del pagamento dell'onere!",
+                  "In assenza di tale documentazione si può ricorrere all'annotazione in fattura, ricevuta fiscale o documento commerciale emesso da parte del percettore delle somme che cede il bene o effettua la prestazione del servizio. Fanno eccezione le spese per l'acquisto di medicinali e di dispositivi medici, nonché le detrazioni accreditate dal Servizio Sanitario Nazionale. Erogazioni liberali, documenti di attestazione ricevute versamenti effettuati a favore di:"
+                ],
+                "elenco (9)": [
+                  "Ricevuta bancomat/carte di credito",
+                  "Estratto conto, copia bollettino postale o del MAV e dei pagamenti con pagoPA"
+                ],
+              
+                "titolo elenco (10)": [
+                    "Altre spese"
+                ],
+                "elenco (10)": [
+                  "APS, Onlus, ONG e ODV",
+                  "Istituzioni religiose",
+                  "Trust e fondi speciali",
+                  "Partiti politici",
+                  "Istituti scolastici, beni culturali pubblici (Art Bonus)",
+                  "Impianti sportivi pubblici (Sport Bonus)"
+                ]
+            },
+            {   
+                "id": "modelliaccertamento",
+                "img": "images\/service\/red.webp",
+                "alt": "RED",
+                "titolo": "Modelli di accertamento requisiti",
+                "sottosezioni": [
+                    {
+                        "titolo": "RED",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc RED 1",
+                            "doc RED 2"
+                        ]
+                    },
+                    {
+                        "titolo": "ICRIC",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc ICRIC 1"
+                        ]
+                    },
+                    {
+                        "titolo": "ICLAV",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc ICLAV 1",
+                            "doc ICLAV 2"
+                        ]
+                    },
+                    {
+                        "titolo": "ACCAS",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc ACCAS 1"
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "contrattilocazione",
+                "img": "images\/service\/successioni.webp",
+                "alt": "Contratti di locazione",
+                "titolo": "Contratti di locazione",
+                "sottotitolo": "Contratti d'affitto",
+                "paragrafo": [
+                    "Documentazione necessaria:"
+                ],
+                "elenco": [
+                    "Oggetto numero 1",
+                    "Oggetto numero 2",
+                    "Oggetto numero 3",
+                    "Oggetto numero 4"
+                ]
+            }
+        ]
+    },
+    "servizi Patronato": {
+        "id": "servizi-patronato",
+        "titolo": "Patronato",
+        "servizi": [
+            {   
+                "id": "maternita",
+                "img": "images\/service\/red.webp",
+                "alt": "Maternita",
+                "titolo": "Maternita",
+                "sottosezioni": [
+                    {
+                        "titolo": "Premio alla nascita",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    },
+                    {
+                        "titolo": "Bonus bebè",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    },
+                    {
+                        "titolo": "Bonus asilo nido",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    },
+                    {
+                        "titolo": "Assegni nucleo familiare",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    }
+                ]
+            },
+            {   
+                "id": "naspi",
+                "img": "images\/service\/red.webp",
+                "alt": "Naspi",
+                "titolo": "Naspi",
+                "sottosezioni": [
+                    {
+                        "titolo": "DID (Disponibilità all'impiego)",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    },
+                    {
+                        "titolo": "Disoccupazione agricola",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    },
+                    {
+                        "titolo": "Comunicazione inizio lavoro",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    }
+                ]
+            },
+            {   
+                "id": "prestazioneasostegnodelreddito",
+                "img": "images\/service\/red.webp",
+                "alt": "Prestazioni a sotegno del reddito",
+                "titolo": "Prestazioni a sotegno del reddito",
+                "sottosezioni": [
+                    {
+                        "titolo": "Invalidità civile/Assistenza e pensioni",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    },
+                    {
+                        "titolo": "Indennità di accompagnamento",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    },
+                    {
+                        "titolo": "Ciechi civili, sordomuti",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    },
+                    {
+                        "titolo": "Indennità di frequenza",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    },
+                    {
+                        "titolo": "Legge 104/Permessi congedi straordinari",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    }
+                ]
+            },
+            {   
+                "id": "tuteladeilavoratori",
+                "img": "images\/service\/red.webp",
+                "alt": "Tutela dei lavoratori",
+                "titolo": "Tutela dei lavoratori",
+                "sottosezioni": [
+                    {
+                        "titolo": "Fondo di garanzia",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    },
+                    {
+                        "titolo": "Lavoro",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    },
+                    {
+                        "titolo": "Mercato del lavoro",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    },
+                    {
+                        "titolo": "Conciliatore sindacale",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    }
+                ]
+            },
+            {   
+                "id": "pensioni",
+                "img": "images\/service\/red.webp",
+                "alt": "Pensioni",
+                "titolo": "Pensioni",
+                "sottosezioni": [
+                    {
+                        "titolo": "Pensione di Vecchiaia/Anzianità/Anticipata/Quota 100/Calcolo decorrenza e importo",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    },
+                    {
+                        "titolo": "Pensione di reversibilità",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    },
+                    {
+                        "titolo": "Assegno ordinario Invalidità/Inabilità",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    },
+                    {
+                        "titolo": "Assegno sociale",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    },
+                    {
+                        "titolo": "Ricostruzione/Supplementi pensione/Ricongiunzione/Riscatti/Computo periodo di servizi",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    },
+                    {
+                        "titolo": "Versamenti volontari",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    },
+                    {
+                        "titolo": "Equo indennizzo",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    },
+                    {
+                        "titolo": "Regolarizzazione/Verifica posizioni assicurative",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    },
+                    {
+                        "titolo": "Riscatti",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    },
+                    {
+                        "titolo": "Ricongiunzioni",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    },
+                    {
+                        "titolo": "Riconoscimento del servizio militare e delle maternità dentro e fuori dal rapporto di lavoro",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    }
+                ]
+            },
+            {   
+                "id": "inail",
+                "img": "images\/service\/red.webp",
+                "alt": "Inail",
+                "titolo": "Inail",
+                "sottosezioni": [
+                    {
+                        "titolo": "Malattie professionali/Infortuni, Revisione delle rendite per aggravamento, Calcolo dell'indennità temporanea",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    },
+                    {
+                        "titolo": "Danno biologico",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    }
+                ]
+            },
+            {   
+                "id": "immigrazione",
+                "img": "images\/service\/red.webp",
+                "alt": "Immigrazione",
+                "titolo": "Immigrazione",
+                "sottosezioni": [
+                    {
+                        "titolo": "Permesso di soggiorno",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    },
+                    {
+                        "titolo": "Carta di soggiorno",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    },
+                    {
+                        "titolo": "Permanenza/Assistenza/Cittadinanza",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    },
+                    {
+                        "titolo": "Ricongiungimento familiare",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    },
+                    {
+                        "titolo": "Conversione del permesso di soggiorno",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "doc necessario",
+                            "doc necessario"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "servizi Assistenza": {
+        "id": "assistenza",
+        "titolo": "Assistenza",
+        "servizi": [
+            {   
+                "id": "assistenzacolf-badanti",
+                "img": "images\/service\/colf-badanti.webp",
+                "alt": "Assistenza Colf/Badanti",
+                "titolo": "Assistenza Colf/Badanti",
+                "sottosezioni": [
+                    {
+                        "titolo": "Adempimenti del rapporto di lavoro domestico",
+                        "paragrafo": "Documentazione necessaria per il datore di lavoro:",
+                        "elenco": [
+                            "Documento di identità in corso di validità, se extracomunitario passaporto in corso di validità e il permesso di soggiorno CE per soggiornanti di lungo periodo",
+                            "Codice fiscale",
+                            "Se il datore di lavoro non è la persona da assistere è necessario fornire il codice fiscale e un documento d'identità valido della persona da assistere"
+                        ]
+                    },
+                    {
+                        "paragrafo": "Documentazione necessaria per il lavoratore:",
+                        "elenco": [
+                            "Documento di identità in corso di validità, se extracomunitario con permesso di soggiorno sono necessari il passaporto in corso di validità, il codice fiscale e il permesso di soggiorno valido con la ricevuta di invio per rinnovo in caso di scadenza",
+                            "Codice fiscale",
+                            "In caso di lavoratori extracomunitari con regolarizzazione, sanatoria o prevenienti da flussi sono necessari il passaporto, il codice fiscale, il nulla osta rilasciato dallo sportello unico immigrazione, il contratto di soggiorno e la ricevuta di rilascio del permesso di soggiorno",
+                            "Lettera di assunzione redatta in conformità al CCNL del lavoro domestico. Deve contenere i dati essenziali del rapporto : data di inzio, la tipologia di contratto, l'orario settimanale e la retribuzione",
+                            "in caso di lavoratore minore è richiesta la dichiarazione dei genitori o di chi esercita la potestà familiare, vidimata dal sindaco del Comune di residenza",
+                            "Certificato di idoneità al lavoro, rilasciato dopo una visita medica da parte dell'Ufficiale sanitario"
+                        ]
+                    },
+                    {
+                        "titolo": "Assistenza vertenze",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "Documento di identità in corso di validità, se extracomunitario passaporto in corso di validità e il permesso di soggiorno CE per soggiornanti di lungo periodo",
+                            "Codice fiscale"
+                        ]
+                    }
+                ]
+            },
+            {   
+                "id": "assistenzalegale",
+                "img": "images\/service\/assistenza-legale.webp",
+                "alt": "Assistenza legale",
+                "titolo": "Assistenza legale",
+                "sottosezioni": [
+                    {
+                        "titolo": "Previdenziale",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "Documento di identità in corso di validità, se extracomunitario passaporto in corso di validità e il permesso di soggiorno CE per soggiornanti di lungo periodo",
+                            "Codice fiscale"
+                        ]
+                    },
+                    {
+                        "titolo": "Diritto di famiglia",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "Documento di identità in corso di validità, se extracomunitario passaporto in corso di validità e il permesso di soggiorno CE per soggiornanti di lungo periodo",
+                            "Codice fiscale"
+                        ]
+                    },
+                    {
+                        "titolo": "Successione",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "Documento di identità in corso di validità, se extracomunitario passaporto in corso di validità e il permesso di soggiorno CE per soggiornanti di lungo periodo",
+                            "Codice fiscale"
+                        ]
+                    },
+                    {
+                        "titolo": "Diritto del lavoro",
+                        "paragrafo": "Documentazione necessaria:",
+                        "elenco": [
+                            "Documento di identità in corso di validità, se extracomunitario passaporto in corso di validità e il permesso di soggiorno CE per soggiornanti di lungo periodo",
+                            "Codice fiscale"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "cookie_privacy": {
+        "titolo": "IL MOVIMENTO CRISTIANO LAVORATORI",
+        "testo": "MCL è un Movimento di lavoratori cristiani a carattere sociale, di solidarietà e volontariato senza alcuna finalità di lucro. Il M.C.L., intende promuovere l'affermazione dei principi cristiani nella vita, nella cultura, negli ordinamenti, nella legislazione. Per questo intende operare come Movimento ecclesiale di testimonianza evangelica organizzata...",
+        "link_storia": {
+            "text": "Clicca qui per approfondire.",
+            "href": "chisiamo.html"
+        }
+    }
+}

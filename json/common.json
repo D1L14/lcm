@@ -1,0 +1,165 @@
+{
+    "meta": {
+        "titolo": "MCL Genova",
+        "og_title": "Movimento Cristiano Lavoratori",
+        "og_description": "Il tuo Caf MCL e Patronato Sias di fiducia",
+        "og_image": "images\/favicon\/stemmamcl.png"
+    },
+    "menu": {
+        "titolo_pagina": "MCL GENOVA",
+        "voci": [
+            {
+                "label": "CAF",
+                "link": "servizi.html#servizi-caf"
+            },
+            {
+                "label": "Patronato",
+                "link": "servizi.html#servizi-patronato"
+            },
+            {
+                "label": "Assistenza",
+                "link": "servizi.html#assistenzacolf-badanti"
+            },
+            {
+                "label": "Chi siamo",
+                "link": "chisiamo.html"
+            },
+            {
+                "label": "Sedi e Contatti",
+                "link": "#sedi-contatti"
+            }
+            
+        ]
+    },
+    "mappa": {
+        "titolo": "Mappa sedi e contatti",
+        "sedi": [
+            {
+                "nome": "Associazione Amici di Pietranera",
+                "indirizzo": "Via Pietranera, 19, Rovegno",
+                "telefono": "010 1234567",
+                "email": "circolomclamicipietranera@pec.it",
+                "orari": "Lun-Ven: 09-18.00",
+                "lat": "44.582273580104",
+                "lng": "9.3052174029955"
+            },
+            {
+                "nome": "Associazione Cristiana Genitori",
+                "indirizzo": "Via Cambiaso, 2 canc., Campomorone",
+                "telefono": "3771225600",
+                "email": "associazionecristianagenitori@pec.it",
+                "orari": "Lun-Ven: 09-18.00",
+                "lat": "44.528817821971",
+                "lng": "8.8685774526602"
+            },
+            {
+                "nome": "Associazione Il Mulino di Foppiano",
+                "indirizzo": "Frazione Foppiano 21, Rovegno",
+                "telefono": "3397732468",
+                "email": "circolomclmulinodifoppiano@pec.it",
+                "orari": "Lun-Ven: 09-18.00",
+                "lat": "44.58311932663",
+                "lng": "9.3195679220901"
+            },
+            {
+                "nome": "Circolo La Sportiva MCL Preli",
+                "indirizzo": "Salita Preli, 51r, Genova",
+                "telefono": "010 8368809",
+                "email": "emailfittizia@gmail.com",
+                "orari": "Lun-Ven: 15:30-19.30 e 21:30-00:30",
+                "lat": "44.440184154726",
+                "lng": "8.9594652527703"
+            },
+            {
+                "nome": "Circolo MCL Amici Carpeneto",
+                "indirizzo": "Via del Municipio, 47, Fascia",
+                "telefono": "3663166104",
+                "email": "circolomclamicicarpeneto@pec.it",
+                "orari": "Lun-Ven: 09-18.00",
+                "lat": "44.582651205439",
+                "lng": "9.222330352585"
+            },
+            {
+                "nome": "CAF MCL e PATRONATO SIAS",
+                "indirizzo": "Corso Torino 36\/3, Genova",
+                "telefono": "010 1234567",
+                "email": "emailfittizia@gmail.com",
+                "orari": "Lun-Ven: 09-18.00",
+                "lat": "44.401053477723",
+                "lng": "8.9505120969478"
+            },
+            {
+                "nome": "Circolo MCL Giovanni XXIII",
+                "indirizzo": "Via Vesuvio, 16a\/r, Genova",
+                "telefono": "3202622114",
+                "email": "circolomclgegiovannixxiii@pec.acce-ge.it",
+                "orari": "Lun-Ven: 09-18.00",
+                "lat": "44.425231651322",
+                "lng": "8.9218598122924"
+            },
+            {
+                "nome": "Circolo MCL Giuseppe Fanin",
+                "indirizzo": "Corso Torino 4\/8, Genova",
+                "telefono": "3356742019",
+                "email": "manuelli.giovanni45@gmail.com",
+                "orari": "Lun-Ven: 09-18.00",
+                "lat": "44.404432380918",
+                "lng": "8.9520718708972"
+            },
+            {
+                "nome": "Circolo MCL Orizzonte",
+                "indirizzo": "Via Martiri di Voltaggio 3, Busalla",
+                "telefono": "3476318032",
+                "email": "circolo.orizzonte@libero.it",
+                "orari": "Lun-Ven: 09-18.00",
+                "lat": "44.573882923095",
+                "lng": "8.9423741035013"
+            },
+            {
+                "nome": "Circolo Padre Domenico Bonassi",
+                "indirizzo": "Corso Torino 36\/3, Genova",
+                "telefono": "3474727982",
+                "email": "margherita.salvaneschi@gmail.com",
+                "orari": "Lun-Ven: 09-13 e 14.30-18.30",
+                "lat": "44.401053477723",
+                "lng": "8.9505120969478"
+            },
+            {
+                "nome": "Unione Provinciale MCL Genova",
+                "indirizzo": "Corso Torino 36\/3, Genova",
+                "telefono": "010 10584224",
+                "email": "genova@mcl.it",
+                "orari": "Lun-Ven: 09-18.00",
+                "lat": "44.401053477723",
+                "lng": "8.9505120969478"
+            },
+            {
+                "nome": "Unione Regionale MCL Liguria",
+                "indirizzo": "Corso Torino 36\/3, Genova",
+                "telefono": "010 10584427",
+                "email": "datrizio56@gmail.com",
+                "orari": "Lun-Gio: 09-13 e 14:30-18:30, Ven: 09-13 e 14:30-17",
+                "lat": "44.401053477723",
+                "lng": "8.9505120969478"
+            }
+        ]
+    },
+    "footer": {
+        "logos": [
+            "images\/logos\/cafmcl.jpg",
+            "images\/logos\/mcl.jpg",
+            "images\/logos\/sias.png"
+        ],
+        "copyright": "© 2025 Movimento Cristiano Lavoratori Genova",
+        "links": [
+            {
+                "label": "Privacy",
+                "href": "privacy.html"
+            },
+            {
+                "label": "Cookie",
+                "href": "cookie.html"
+            }
+        ]
+    }
+}

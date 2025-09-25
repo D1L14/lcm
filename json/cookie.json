@@ -1,0 +1,10 @@
+{
+    "cookie_privacy": {
+            "titolo": "Cookie Policy",
+            "testo": "Questo sito utilizza i cookie per garantire il corretto funzionamento delle pagine e migliorare l’esperienza di navigazione. I cookie sono piccoli file di testo che possono essere utilizzati dai siti web per rendere più efficiente l'esperienza per l'utente. La legge afferma che possiamo memorizzare i cookie sul tuo dispositivo se sono strettamente necessari per il funzionamento di questo sito. Per tutti gli altri tipi di cookie abbiamo bisogno del tuo permesso. Questo sito utilizza diversi tipi di cookie. Alcuni cookie sono collocati da servizi di terze parti che compaiono sulle nostre pagine. Puoi in qualsiasi momento modificare o revocare il tuo consenso dalla Dichiarazione dei cookie sul nostro sito web.",
+            "link_storia": {
+                "text": "Scopri di piu su chi siamo, come puoi contattarci e come trattiamo i dati personali nella nostra privacy policy.",
+                "href": "privacy.html"
+            }
+        }
+}
